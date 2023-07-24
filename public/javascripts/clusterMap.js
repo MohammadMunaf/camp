@@ -38,11 +38,11 @@ map.on('load', () => {
                 'step',
                 ['get', 'point_count'],
                 '#A6E7F7',
-                10,
+                2,
                 '#B6A6F7',
-                25,
+                3,
                 '#A6BEF7',
-                30,
+                4,
                 '#2196F3'
 
             ],
@@ -50,11 +50,11 @@ map.on('load', () => {
                 'step',
                 ['get', 'point_count'],
                 12,   //radius
-                10,  //number of campground
+                2,  //number of campground
                 15,
-                20,
+                3,
                 17,
-                30,
+                4,
                 20
             ]
         }
