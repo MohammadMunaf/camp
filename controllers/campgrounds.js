@@ -11,10 +11,11 @@ module.exports.index = async (req, res) => {
 }
 
 module.exports.renderNewForm = async (req, res) => {
+    console.log("login");
     res.render('campgrounds/new');
 }
 module.exports.createCampground = async (req, res,next) => {
-    console.log("running");
+    //console.log("running");
     //if (!req.body.campgrounds) throw new ExpressError('Invalid Compground data', 400);
     const geoData = await geocoder.forwardGeocode({
         query: req.body.campground.location,
