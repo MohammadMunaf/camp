@@ -24,7 +24,7 @@ body {
     border-bottom-color:rgba(255,255,255,0.5);
 }
 
-.nav-link.active {
+.na-link.active {
     color: white;
     border-bottom-color:white;
 
@@ -34,4 +34,24 @@ body {
     color: #333;
     text-shadow: none;
 }
-
+@media(max-width:750px) {
+    h3{
+        display: none;
+        visibility: hidden;
+    }
+    .lead{
+        font-size: medium;
+    }
+    .btn{
+        width: 150px;
+        max-height: 55px;
+        font-size:smaller;
+        font-weight: 300;
+    }
+}
+@media(max-width:325px){
+    .px-3 a{
+        display: none;
+        visibility: hidden;
+    }
+}
